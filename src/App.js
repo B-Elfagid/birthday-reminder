@@ -4,14 +4,16 @@ import List from './List';
 
 function App() {
 
-  return (
-    <>
-    <section className='container'>
-       <h3>0 birthdays today</h3>
-       <List />
-    </section>
-    </>
-  )
+const [people, setPeople] = useState(data)
+
+  return <main>
+      <section className='container'>
+         <h3>0 birthdays today</h3>
+         <List people={people}/>
+         <button onClick={()=>console.log('youclickedme')}>Clear All</button>
+      </section>
+    </main>
+  
 }
 
 export default App;

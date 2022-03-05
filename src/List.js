@@ -3,7 +3,7 @@ import React from 'react';
 const List = () => {
     return(
         <>
-        <h1>List components</h1>
+        <h3>List components</h3>
         </>
     )
 }
