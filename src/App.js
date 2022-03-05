@@ -6,8 +6,10 @@ function App() {
 
   return (
     <>
-    <h2>Birthday Reminder</h2>
-    <List />
+    <section className='container'>
+       <h3>0 birthdays today</h3>
+       <List />
+    </section>
     </>
   )
 }
